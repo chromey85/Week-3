@@ -1,0 +1,35 @@
+.square {
+    width: 500px;
+    height: 300px;
+    background-color: crimson;
+    box-shadow: rgb(0, 0, 0) 6px 6px 0;
+    animation-name: button;
+    /* transition: border-radius 3s; */
+    /* how long it takes to transition from one shape to another */
+    transition-duration: 4s;
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in */
+    /* transition-timing-function: ease-in-out; */
+    /* animation-timing-function: cubic-bezier(0,1.97,1,-0.43); */
+    animation-duration: 10s;
+}
+
+.square:hover {
+    border-radius: 50%;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red )
+}
+
+@keyframes button {
+    0% {
+        background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2022/01/Glowing-car-small-615b223.jpg?quality=90&resize=768,574");
+        box-shadow: rgb(0, 0, 0) 6px 6px 0;
+    }  
+    50% {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbUh-cVeGop9rMXvfHY4mE22nMBO75Fpq4BeZGDwJKTde9J4aORc5nt63yA7XWlgKH3s&usqp=CAU");
+        box-shadow: rgb(0, 0, 0) 6px 6px 0;
+    }  
+    100% {
+        background-image: url("https://media.peugeot.com.au/image/32/9/peugeot-onyx-concept-home.44329.44329.11.jpg?autocrop=1");
+        box-shadow: rgb(2, 2, 2) 6px 6px 0;
+    }
+}

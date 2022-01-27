@@ -21,7 +21,7 @@
     display: flex;
     border: #742e22 solid 5px;
     width: 50%;
-    height: auto;
+    height: 50%;
     justify-content: center;
     margin: auto;
 }
@@ -45,9 +45,12 @@
     display: flex;
     border: #7b2229 solid 5px;
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    
+}
+
+/* #event-code-txt {
+    margin-top: 10px; */
 }
 /* .event-location-txt { 
     display: flex;
