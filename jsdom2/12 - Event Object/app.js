@@ -1,5 +1,5 @@
-const input = document.getElementById("input");
-const submit = document.getElementById("submit");
+const input = document.querySelector("#input");
+const submit = document.querySelector("#submit");
 const remove = document.querySelector("#remove");
 const list = document.querySelector("#list"); 
 
