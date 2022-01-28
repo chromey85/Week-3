@@ -45,6 +45,7 @@
     border:#5f301f solid 5px;
     width: 75%;
     margin: auto;
+    align-items: center;
 }
 
 .output, .event {
